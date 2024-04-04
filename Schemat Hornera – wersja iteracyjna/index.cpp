@@ -1,28 +1,30 @@
-##include<iostream>
+#include<iostream>
 using namespace std;
 
-int hornerIteracyjnie(int wspolczynniki[], int stopienWielomianu, int x) {
-    int wynik = wspolczynniki[stopienWielomianu];
-    for(int i = stopienWielomianu - 1; i >= 0; i--)
-        wynik = wynik * x + wspolczynniki[i];
-    return wynik;
-}
-
 int main() {
-    int stopienWielomianu;
-    cout << "Podaj stopień wielomianu: ";
-    cin >> stopienWielomianu;
-    
-    int wspolczynniki[stopienWielomianu + 1];
-    cout << "Podaj współczynniki wielomianu: ";
-    for (int i = stopienWielomianu; i >= 0; i--) {
-        cin >> wspolczynniki[i];
+    int n, c;
+    // n - stopien wielomianu W(x), c - pierwistek wielomianu P(x)
+    cout << "Podaj stopien wielomianu W(x): ";
+    cin >> n;
+    cout << "Podaj pierwiastek wielomianu P(x): ";
+    cin >> c;
+
+    int* a = new int[n+1];
+    int* b = new int [n+1];
+    cout << "Podaj pierwszy wspolczynik: ";
+    cin >> a[n];
+    b[n] = a[n];
+// x0 -  wyraz wolny
+    for(int i = n -1; i >=0; i--){
+        cout << "Podaj wspolczynik przy (x" << i << "): ";
+        cin >> a[i];
+        b[i] = b[i+1] * c + a[i];
+        cout << b[i] << endl;
+
     }
-    
-    int x;
-    cout << "Podaj wartość x: ";
-    cin >> x;
-    
-    cout << "Wynik: " << hornerIteracyjnie(wspolczynniki, stopienWielomianu, x);
+
+    delete[] a;
+    delete[] b;
+
     return 0;
 }
