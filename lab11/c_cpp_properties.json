@@ -1,0 +1,4 @@
+"includePath": [
+    "C:/path/to/compiler/include",
+    "C:/path/to/compiler/lib/gcc/x86_64-w64-mingw32/10.2.0/include/c++"
+]
