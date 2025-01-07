@@ -31,9 +31,28 @@ void Load(void) {
 
 }
 
-void Save(void) {
-
+void Save(void) // funk wczytujaca dane z pliku do tablicy student
+{
+    int i;
+    ofstream plik;
+    plik.open("baza.txt");
+    if(plik.fail())
+    {
+        plik.close();
+        if(plik.fail());
+        cout << "Wystapil blad pliku!" <<endl;
+        exit(1)
+    }    
+    for(int i = 0; i < MAX; i++)
+        if(tab[i].imie != "")
+        {
+            plik << tab[i].imie << "#"
+                << tab[i].adres << "#"
+                << tab[i].tel << "#" << endl;
+        }
+    plik.close();
 }
+
 
 void main (void) {
     Load();
