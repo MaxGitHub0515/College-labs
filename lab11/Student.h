@@ -9,4 +9,6 @@ class Student {
     string imie;
     string adres;
     string tel;
+   
 };
+ extern student tab[MAX]
