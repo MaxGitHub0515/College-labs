@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+  
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
