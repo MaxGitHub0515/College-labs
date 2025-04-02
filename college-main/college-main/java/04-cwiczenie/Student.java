@@ -1,6 +1,13 @@
 // Klasa Student dziedziczy po klasie Czlowiek i dodaje dane dotyczace studiow
 // The Student class inherits from Czlowiek and adds academic-related data
+// super => 
+/*
+super() przekazujemy parametry, które są następnie przekazywane do konstruktora klasy bazowej (superklasy). 
+Te parametry są używane do inicjalizacji pól lub wykonania logiki w konstruktorze klasy bazowej.
 
+
+
+*/
 public class Student extends Czlowiek {
     private int semestr;   // Numer semestru / Semester number
     private String album;  // Numer albumu studenta / Student's record book number

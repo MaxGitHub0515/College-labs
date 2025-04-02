@@ -29,10 +29,16 @@ public class Punkt3D {
     // Metoda do wczytywania liczby zmiennoprzecinkowej z konsoli
     // Method for reading a floating-point number from the console
     private double WczytajDouble(String nazwa) {
+        // BufferedReader = klasa, która umozliwia odczytywanie danych wejściowych w postaci tekstu.
+        // --> przetwarza te dane na poziom wyzszy (tekst);
+        // System.in - standardowe wejscie w Javie, ---> odczytuje dane z klawiatury na poziomie niskim(bajty);
+        // InputStreamReader = która działa jako pośrednik między strumieniem bajtów(z klawiatury) a strumieniem znakow(tesktu)
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         try {
             System.out.print(nazwa + "= ");
+            // Służy do odczytywania pojedynczej linii tekstu wprowadzonej przez użytkownika lub dostępnej w pliku.
             String s = in.readLine();
+            // parseDouble() Służy do konwertowania ciągu znaków (String) na liczbę zmiennoprzecinkową (double).
             return Double.parseDouble(s);
         } catch (Exception e) {
             System.err.println("Blad! To nie jest liczba!");
@@ -52,6 +58,7 @@ public class Punkt3D {
     // Konstruktor inicjalizujacy punkt na podstawie nazwy i wczytujacy jego wspolrzedne
     // Constructor initializing the point based on the name and reading its coordinates
     public Punkt3D(String nazwa) {
+        // stosowana do przypisania wartości do pol
         this.nazwa = nazwa;
         WczytajPunkt();
     }
