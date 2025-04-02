@@ -28,6 +28,8 @@ public class Wektor3D {
     }
 
     // Funkcja prywatna sumujaca dwa wektory
+    // Funkcja sumujaca 2 wektory i zapisujaca wynik w wektorze
+    // (a + b)
     private void Suma(Wektor3D a, Wektor3D b) {
         this.x = a.x + b.x;
         this.y = a.y + b.y;
@@ -35,6 +37,7 @@ public class Wektor3D {
     }
 
     // Funkcja prywatna obliczajaca roznice dwoch wektorow
+    // (a - b)
     private void Roznica(Wektor3D a, Wektor3D b) {
         this.x = a.x - b.x;
         this.y = a.y - b.y;
