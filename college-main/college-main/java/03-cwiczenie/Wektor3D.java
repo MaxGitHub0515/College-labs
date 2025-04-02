@@ -55,6 +55,21 @@ public class Wektor3D {
         this.z = scanner.nextDouble();
     }
 
+    // funkcja statyczna obliczajaca (a + b) wektorow i zwracajaca referencje dp 
+    // dynamicznie utworzonego wektora wynikowego
+    public static Wektor3D Suma(Wektor3D a, Wektor3D b, String nazwa )
+    {}
+
+    // odwrotnie 
+    // funkcja statyczna obliczajaca (a - b) wektorow i zwracajaca referencje dp 
+    // dynamicznie utworzonego wektora wynikowego
+    public static Wektor3D Roznica(Wektor3D a, Wektor3D b, String nazwa )
+    {}
+
+    // Calculation of a vector length
+    // funkcja obliczjaca dlugosc wektora
+    
+
     // Funkcja wyswietlajaca wspolrzedne
     public void wyswietl() {
         System.out.println(nazwa + ": (" + x + ", " + y + ", " + z + ")");
