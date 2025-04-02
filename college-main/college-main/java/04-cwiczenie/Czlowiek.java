@@ -49,7 +49,9 @@ public class Czlowiek {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         try {
             System.out.print(nazwa + "= ");
+            //odczytanie tesktu wprowadzenpgp z klawiatury
             String s = in.readLine();
+            // konwersja tekstu na liczbe 
             int zmienna = Integer.parseInt(s);
             return zmienna;
         } catch (Exception e) {
@@ -67,6 +69,8 @@ public class Czlowiek {
         do {
             String p = WczytajString("Plec (M/K)");
             p = p.toUpperCase();
+            // checks whether the first character of the string p is equal to the character 'K'
+            // sprawdza, czy pierwszy znak ciągu p jest równy znakowi „K”
             if (p.charAt(0) == 'M') {
                 this.plec = Plec.M;
                 sukces = true;
@@ -90,11 +94,15 @@ public class Czlowiek {
         System.out.println("Pesel: " + this.pesel);
     }
     public boolean equals(Object o) {
-        if (o instanceof Czlowiek) {
-            Czlowiek c = (Czlowiek) o;
-            return this.pesel.equals(c.pesel);
+        // if (o instanceof Czlowiek) {
+        Czlowiek c = (Czlowiek) o;
+        if(pesel.equals(c.pesel))
+            return true;
+             else 
+            return  false;
         }
-        return false;
+     
     }
-}
+
+// }
 
