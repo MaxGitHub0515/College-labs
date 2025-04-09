@@ -90,19 +90,19 @@ while(!sukces) {
 	try {
 		
 		String s = in.readLine();
-		//converting a string to a number
+		
 		int n = Integer.parseInt(s);
 		if(n>=0) {
 			sukces = true;
 			long sil = silnia(n);
 			System.out.println(n+"!="+sil);
 			else {
-				// writing down an error
+				
 				System.out.println("Blad! To nie jest liczba nieujemna");
 				
 			}
 	} catch (Exception e) {
-		// display the outcome - error 
+		
 		System.out.println("Blad!! Niewlasciwy format danych");
 		sukces = false;
 		
