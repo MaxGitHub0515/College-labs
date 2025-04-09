@@ -1,9 +1,8 @@
 public class Wektor3D {
-    public double x, y, z;  // Wspolrzedne publiczne
-    private String nazwa;   // Nazwa prywatna
+    public double x, y, z;  
+    private String nazwa; 
 
-    
-    // Konstruktor przyjmujacy wspolrzedne i nazwe
+
     public Wektor3D(double x, double y, double z, String nazwa) {
         this.x = x;
         this.y = y;
@@ -11,7 +10,6 @@ public class Wektor3D {
         this.nazwa = nazwa;
     }
 
-    // Konstruktor przyjmujacy dwa punkty i obliczajacy wspolrzedne
     public Wektor3D(Punkt3D poczatek, Punkt3D koniec, String nazwa) {
         this.x = koniec.getX() - poczatek.getX();
         this.y = koniec.getY() - poczatek.getY();
@@ -19,7 +17,6 @@ public class Wektor3D {
         this.nazwa = nazwa;
     }
 
-    // Konstruktor przyjmujacy tylko nazwe, wspolrzedne ustawiane na 0
     public Wektor3D(String nazwa) {
         this.x = 0;
         this.y = 0;
@@ -27,24 +24,21 @@ public class Wektor3D {
         this.nazwa = nazwa;
     }
 
-    // Funkcja prywatna sumujaca dwa wektory
-    // Funkcja sumujaca 2 wektory i zapisujaca wynik w wektorze
-    // (a + b)
+
     private void Suma(Wektor3D a, Wektor3D b) {
         this.x = a.x + b.x;
         this.y = a.y + b.y;
         this.z = a.z + b.z;
     }
 
-    // Funkcja prywatna obliczajaca roznice dwoch wektorow
-    // (a - b)
+    
     private void Roznica(Wektor3D a, Wektor3D b) {
         this.x = a.x - b.x;
         this.y = a.y - b.y;
         this.z = a.z - b.z;
     }
 
-    // Funkcja publiczna wczytujaca wspolrzedne z klawiatury
+
     public void wczytajWspolrzedne() {
         java.util.Scanner scanner = new java.util.Scanner(System.in);
         System.out.print("Podaj x: ");
@@ -55,22 +49,16 @@ public class Wektor3D {
         this.z = scanner.nextDouble();
     }
 
-    // funkcja statyczna obliczajaca (a + b) wektorow i zwracajaca referencje dp 
-    // dynamicznie utworzonego wektora wynikowego
     public static Wektor3D Suma(Wektor3D a, Wektor3D b, String nazwa )
     {}
 
-    // odwrotnie 
-    // funkcja statyczna obliczajaca (a - b) wektorow i zwracajaca referencje dp 
-    // dynamicznie utworzonego wektora wynikowego
+  
     public static Wektor3D Roznica(Wektor3D a, Wektor3D b, String nazwa )
     {}
 
-    // Calculation of a vector length
-    // funkcja obliczjaca dlugosc wektora
+  
     
 
-    // Funkcja wyswietlajaca wspolrzedne
     public void wyswietl() {
         System.out.println(nazwa + ": (" + x + ", " + y + ", " + z + ")");
     }
