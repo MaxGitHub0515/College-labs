@@ -30,18 +30,18 @@ public class Silnia {
 	
 //		// like try..catch 
 		try {
-		// read from a console
+		
 			String s = in.readLine();
-			//converting a string to a number
+			
 		int n = Integer.parseInt(s);
 		if(n>=0) {
-			// calculating factori...
+			
 				long sil = silnia(n);
-			// display the output in a console
+			
 			System.out.println(n+"!="+sil);
 				
 		} else {
-			// writing down an error
+			
 		System.out.println("Blad! To nie jest liczba nieujemna");
 				
 		}
