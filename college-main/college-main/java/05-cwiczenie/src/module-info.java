@@ -1,2 +1,8 @@
-module module {
+/**
+ * 
+ */
+/**
+ * 
+ */
+module cwiczenie5java {
 }
