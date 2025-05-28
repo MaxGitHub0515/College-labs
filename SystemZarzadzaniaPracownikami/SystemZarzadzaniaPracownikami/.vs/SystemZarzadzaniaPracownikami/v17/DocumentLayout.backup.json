@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\It\\SystemZarzadzaniaPracownikami\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8787C43F-0686-4C0D-93C2-99E09C84CB0A}|SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami.csproj|c:\\it\\systemzarzadzaniapracownikami\\systemzarzadzaniapracownikami\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8787C43F-0686-4C0D-93C2-99E09C84CB0A}|SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami.csproj|solutionrelative:systemzarzadzaniapracownikami\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8787C43F-0686-4C0D-93C2-99E09C84CB0A}|SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami.csproj|c:\\it\\systemzarzadzaniapracownikami\\systemzarzadzaniapracownikami\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8787C43F-0686-4C0D-93C2-99E09C84CB0A}|SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami.csproj|solutionrelative:systemzarzadzaniapracownikami\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8787C43F-0686-4C0D-93C2-99E09C84CB0A}|SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami.csproj|c:\\it\\systemzarzadzaniapracownikami\\systemzarzadzaniapracownikami\\models\\dzia\u0142.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8787C43F-0686-4C0D-93C2-99E09C84CB0A}|SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami.csproj|solutionrelative:systemzarzadzaniapracownikami\\models\\dzia\u0142.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8787C43F-0686-4C0D-93C2-99E09C84CB0A}|SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami.csproj|c:\\it\\systemzarzadzaniapracownikami\\systemzarzadzaniapracownikami\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8787C43F-0686-4C0D-93C2-99E09C84CB0A}|SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami.csproj|solutionrelative:systemzarzadzaniapracownikami\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8787C43F-0686-4C0D-93C2-99E09C84CB0A}|SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami.csproj|c:\\it\\systemzarzadzaniapracownikami\\systemzarzadzaniapracownikami\\data\\appdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8787C43F-0686-4C0D-93C2-99E09C84CB0A}|SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami.csproj|solutionrelative:systemzarzadzaniapracownikami\\data\\appdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8787C43F-0686-4C0D-93C2-99E09C84CB0A}|SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami.csproj|c:\\it\\systemzarzadzaniapracownikami\\systemzarzadzaniapracownikami\\models\\rola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8787C43F-0686-4C0D-93C2-99E09C84CB0A}|SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami.csproj|solutionrelative:systemzarzadzaniapracownikami\\models\\rola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8787C43F-0686-4C0D-93C2-99E09C84CB0A}|SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami.csproj|c:\\it\\systemzarzadzaniapracownikami\\systemzarzadzaniapracownikami\\models\\osoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8787C43F-0686-4C0D-93C2-99E09C84CB0A}|SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami.csproj|solutionrelative:systemzarzadzaniapracownikami\\models\\osoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\It\\SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SystemZarzadzaniaPracownikami\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\It\\SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SystemZarzadzaniaPracownikami\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T11:58:54.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\It\\SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "SystemZarzadzaniaPracownikami\\MainWindow.xaml",
+              "ToolTip": "C:\\It\\SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami\\MainWindow.xaml",
+              "RelativeToolTip": "SystemZarzadzaniaPracownikami\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T11:28:33.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Osoba.cs",
+              "DocumentMoniker": "C:\\It\\SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami\\Models\\Osoba.cs",
+              "RelativeDocumentMoniker": "SystemZarzadzaniaPracownikami\\Models\\Osoba.cs",
+              "ToolTip": "C:\\It\\SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami\\Models\\Osoba.cs",
+              "RelativeToolTip": "SystemZarzadzaniaPracownikami\\Models\\Osoba.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAmwJUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T11:29:39.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Rola.cs",
+              "DocumentMoniker": "C:\\It\\SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami\\Models\\Rola.cs",
+              "RelativeDocumentMoniker": "SystemZarzadzaniaPracownikami\\Models\\Rola.cs",
+              "ToolTip": "C:\\It\\SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami\\Models\\Rola.cs",
+              "RelativeToolTip": "SystemZarzadzaniaPracownikami\\Models\\Rola.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAmwI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T11:29:29.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dzia\u0142.cs",
+              "DocumentMoniker": "C:\\It\\SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami\\Models\\Dzia\u0142.cs",
+              "RelativeDocumentMoniker": "SystemZarzadzaniaPracownikami\\Models\\Dzia\u0142.cs",
+              "ToolTip": "C:\\It\\SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami\\Models\\Dzia\u0142.cs",
+              "RelativeToolTip": "SystemZarzadzaniaPracownikami\\Models\\Dzia\u0142.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T11:29:16.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppData.cs",
+              "DocumentMoniker": "C:\\It\\SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami\\Data\\AppData.cs",
+              "RelativeDocumentMoniker": "SystemZarzadzaniaPracownikami\\Data\\AppData.cs",
+              "ToolTip": "C:\\It\\SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami\\Data\\AppData.cs",
+              "RelativeToolTip": "SystemZarzadzaniaPracownikami\\Data\\AppData.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAiwLgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T11:29:49.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\It\\SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SystemZarzadzaniaPracownikami\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\It\\SystemZarzadzaniaPracownikami\\SystemZarzadzaniaPracownikami\\MainWindow.xaml.cs",
+              "RelativeToolTip": "SystemZarzadzaniaPracownikami\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T11:28:30.894Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
