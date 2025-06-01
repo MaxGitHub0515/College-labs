@@ -3,7 +3,7 @@
 
 ## Table of Contents:
 - [*App Functionality - Client-Side Perspective*](#application-functionality---client-side-perspective)
-- [*App Structure*](#projectstructure)
+- [*App Structure*](#project-structure)
 - [*Setting up SQL DB*](#setting-up-sql-with-ssms)
 
 
