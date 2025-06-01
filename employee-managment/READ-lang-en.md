@@ -82,12 +82,12 @@
 
 
 ## Setting up [SQL with SSMS]()
-    - FIRST STEPS:
-        - CREATE DB in SSMS called **EmployeeDB**
-        - ADD THE FOLLOWING 3 TABLES to the DB called:
-            - Department
-            - Person
-            - Role
+- FIRST STEPS:
+    - CREATE DB in SSMS called **EmployeeDB**
+    - ADD THE FOLLOWING 3 TABLES to the DB called:
+        - Department
+        - Person
+        - Role
 
 --> Which should look like as follows:
 
