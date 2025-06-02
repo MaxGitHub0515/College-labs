@@ -80,12 +80,12 @@
 
 
 ## Konfiguracja [SQL z SSMS]()
-    - PIERWSZE KROKI:
-        - UTWÓRZ bazę danych w SSMS o nazwie **EmployeeDB**
-        - DODAJ NASTĘPUJĄCE 3 TABELLE do bazy:
-            - Dział
-            - Osoba
-            - Rola
+- PIERWSZE KROKI:
+    - UTWÓRZ bazę danych w SSMS o nazwie **EmployeeDB**
+    - DODAJ NASTĘPUJĄCE 3 TABELLE do bazy:
+        - Dział
+        - Osoba
+        - Rola
 
 --> Które powinny wyglądać następująco:
 
