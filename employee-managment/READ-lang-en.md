@@ -5,6 +5,7 @@
 - [*App Functionality - Client-Side Perspective*](#application-functionality---client-side-perspective)
 - [*App Structure*](#project-structure)
 - [*Setting up SQL DB*](#setting-up-sql-with-ssms)
+- [*XAML (WPF)*](#xaml-wpf)
 
 
 ## STACK
@@ -82,12 +83,12 @@
 
 
 ## Setting up [SQL with SSMS]()
-    - FIRST STEPS:
-        - CREATE DB in SSMS called **EmployeeDB**
-        - ADD THE FOLLOWING 3 TABLES to the DB called:
-            - Department
-            - Person
-            - Role
+- FIRST STEPS:
+    - CREATE DB in SSMS called **EmployeeDB**
+    - ADD THE FOLLOWING 3 TABLES to the DB called:
+        - Department
+        - Person
+        - Role
 
 --> Which should look like as follows:
 
@@ -151,3 +152,26 @@
 ```
 - Then if your build is successful, you get all tables inside models already set up for you along with root file - generatedDbContext
 
+
+## XAML (WPF)
+
+- In a file **App.xaml**, we should have an `"<Application>"` tag  which:
+    - defines global app settings
+    - tells app which window to open first  
+    - stores styles, themes used throught an app
+
+- We set up our **App.xaml** in the following way:
+
+```shell
+    <Application x:Class="SystemZarzadzaniaPracownikami.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SystemZarzadzaniaPracownikami"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
+
+```
+-  `<Application.Resources>` used for defining global resources like: styles, templates, brushes etc.

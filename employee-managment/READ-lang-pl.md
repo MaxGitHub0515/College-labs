@@ -149,3 +149,26 @@
 ```
 
 - Jeśli kompilacja zakończy się sukcesem, otrzymasz wszystkie tabele zaimportowane do folderu Models razem z plikiem głównym GeneratedDbContext.
+
+
+## XAML (WPF)
+
+- W pliku **App.xaml** powinniśmy mieć znacznik `"<Application>"`, który:
+    - definiuje globalne ustawienia aplikacji
+    - określa, które okno ma zostać otwarte jako pierwsze
+    - przechowuje style i motywy używane w całej aplikacji
+
+- Konfigurujemy nasz **App.xaml** w następujący sposób:
+
+```shell
+<Application x:Class="SystemZarzadzaniaPracownikami.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SystemZarzadzaniaPracownikami"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
+```
+- `<Application.Resources>` służy do definiowania globalnych zasobów, takich jak: style, szablony, pędzle itp
